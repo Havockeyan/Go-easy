@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>StaffLogin Page</title>
+    <link rel="stylesheet" href="login_staff.css">
+</head>
+
+<body>
+    <h1>Login</h1>
+    <div class="fullpage">
+        <div class="username">
+            <label>UserName:</label><br>
+            <input id="name" type="text"></input><br><br>
+        </div>
+        <div class="password">
+            <label>Password:</label><br>
+            <input id="pas" type="password"></input><br><br>
+        </div>
+        <button class="login_bt" onclick="check()">Login</button>
+        <br><br><label>Login as:</label>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Staff</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="login.html">Student</a>
+                <a href="login_staff.html">Staff</a>
+                <a href="login_warden.html">Warden</a>
+            </div>
+        </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+                apiKey: "AIzaSyB9R01VGjTAWNDZDwpTLvkWgPff7HoUidw",
+                authDomain: "miniprojectv2final.firebaseapp.com",
+                databaseURL: "https://miniprojectv2final-default-rtdb.firebaseio.com",
+                projectId: "miniprojectv2final",
+                storageBucket: "miniprojectv2final.appspot.com",
+                messagingSenderId: "122429042157",
+                appId: "1:122429042157:web:f3964bb119fbb7db300be4",
+                measurementId: "G-5E67TQSW2Y"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+        </script>
+        <script src="login_staff.js"></script>
+</body>
+
+</html>

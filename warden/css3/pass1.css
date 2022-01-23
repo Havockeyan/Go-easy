@@ -1,0 +1,60 @@
+.new{
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.div1{
+    color: rgb(8, 8, 8);
+    font-size: 10px;
+background-color: rgb(8, 182, 226);  
+text-align: left;  
+margin-top:-.6em;
+font-weight:bolder;
+padding: -.5em;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cpass{
+
+    font-size: 23px;
+    margin-top:1em;
+    text-align: center;
+    margin-bottom: 0em;
+    
+}
+.paslogo{
+    margin: -.5em;
+    margin-left: 42em;
+    margin-top: -3em;
+}
+.but{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 13px;
+    background: rgb(228, 58, 52);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    width: 12%;
+}
+.br{
+    border: .5px solid rgb(252, 252, 253);
+    padding: 5px;
+    width:11%;
+    border-radius: 10px;
+    text-align: center;
+}
+.new{
+    text-align: center;
+
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px;
+    width: 90%;
+    
+}
+.main{
+    margin-top: 2em;
+}

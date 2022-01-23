@@ -1,0 +1,65 @@
+.abt{
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:2300px;
+    position: relative;
+}
+.h1{
+    color: rgb(8, 8, 8);
+    font-size: 40px;
+background-color: rgb(212, 226, 8);  
+text-align: left;  
+margin-top:-.1em;
+font-weight:bolder;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.a{
+    font-size: 40px;
+    margin-left: 4.3em;
+    margin-top: -2.3em;
+    color: rgb(216, 24, 24);
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.logo{
+    margin-left: 1.9em;
+}
+.logo1{
+    margin-left: 29em;
+    margin-top: -7.6em;
+}
+.para1{
+    font-size:28px;
+    color: rgb(2, 0, 1);
+    font-weight: bolder;
+    padding: .5em;
+    font-style: italic;
+}
+.passlogo{
+margin-left: 32em;
+margin-bottom: -.8em;
+}
+.pass{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    }
+ .h2{
+     text-align: center;
+     font-size: 35px;
+     color: rgb(19, 3, 90);
+     font-family: fantasy;
+     margin-left: 2.4em;
+ }   
+ .names{
+     text-align: center ;
+     color: red;
+     font-size: 20px;
+     font-weight: bolder;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }

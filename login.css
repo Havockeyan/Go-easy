@@ -1,0 +1,148 @@
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f0efef;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.fullpage {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+h1 {
+    position: absolute;
+    width: auto;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: blanchedalmond;
+}
+
+
+/*.login_bt {
+    width: 200px;
+    height: 30px;
+    color: rgb(229, 241, 229);
+    background-color: green;
+    cursor: pointer;
+}*/
+
+.username input {
+    width: 200px;
+    height: 25px;
+}
+
+body {
+    background-image: url(images/stdbg.png);
+    background-size: cover;
+}
+
+.password input {
+    width: 200px;
+    height: 25px;
+}
+
+.username {
+    font-weight: bolder;
+    color: rgb(0, 255, 234);
+    font-size: 20px;
+}
+
+.password {
+    font-weight: bolder;
+    color: rgb(0, 255, 234);
+    font-size: 20px;
+}
+
+.log {
+    color: yellow;
+    font-weight: bolder;
+}
+
+.login_bt {
+    border-radius: 4px;
+    background-color: #0eb833;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.login_bt span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.login_bt span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.login_bt:hover span {
+    padding-right: 25px;
+}
+
+.login_bt:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.in {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(243, 28, 28);
+}

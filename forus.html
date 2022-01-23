@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register Page</title>
+
+</head>
+
+<body>
+    <div class="fullpage">
+        <div class="name">
+            <label>Name:</label><br>
+            <input id="name" type="text"></input> <br><br>
+        </div>
+
+        <div class="rollno">
+            <label>RollNo:</label><br>
+            <input id="rollno" type="text"></input> <br><br>
+        </div>
+
+        <div class="section">
+            <label>Section:</label><br>
+            <input id="section" type="text"></input> <br><br>
+        </div>
+        <div class="gender">
+            Gender:
+            <input type="radio" name="gender" id="male">male</input>
+            <input type="radio" name="gender" id="female">female</input><br><br>
+        </div>
+        <div class="unknown">
+            Student/staff/warden:
+            <input type="text" id="unknown"></input> <br><br> password:
+            <input type="text" id="pass"></input> <br><br>
+        </div>
+        <label>Subject 1:</label><br>
+        <input type="text" id="subject1"></input><br>
+        <label>Subject 2:</label><br>
+        <input type="text" id="subject2"></input><br>
+        <label>Subject 3:</label><br>
+        <input type="text" id="subject3"></input><br>
+        <label>Subject 4:</label><br>
+        <input type="text" id="subject4"></input><br>
+        <label>Subject 1:</label><br>
+        <input type="text" id="subject1at"></input><br>
+        <label>Subject 2:</label><br>
+        <input type="text" id="subject2at"></input><br>
+        <label>Subject 3:</label><br>
+        <input type="text" id="subject3at"></input><br>
+        <label>Subject 4:</label><br>
+        <input type="text" id="subject4at"></input><br><br>
+        <button id="insert" onclick="insert()">Insert</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyB9R01VGjTAWNDZDwpTLvkWgPff7HoUidw",
+            authDomain: "miniprojectv2final.firebaseapp.com",
+            databaseURL: "https://miniprojectv2final-default-rtdb.firebaseio.com",
+            projectId: "miniprojectv2final",
+            storageBucket: "miniprojectv2final.appspot.com",
+            messagingSenderId: "122429042157",
+            appId: "1:122429042157:web:f3964bb119fbb7db300be4",
+            measurementId: "G-5E67TQSW2Y"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script src="insertdata/index.js"></script>
+</body>
+
+
+</html>

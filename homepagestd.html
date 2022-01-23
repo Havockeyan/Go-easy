@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+
+
+
+    <link rel="stylesheet" href="homepagestd.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="leftnav">
+            <div class="navlink">
+                <a href="homepagestd.html">Attendens Percentage&nbsp;&nbsp;&nbsp;</a>
+            </div>
+
+            <div class="navlink">
+                <a href="requestleave.html"> Request leave&nbsp;&nbsp;&nbsp;</a>
+            </div>
+            <div class="navlink">
+                <a href="example.html">Check acceptance&nbsp;&nbsp;&nbsp;</a>
+            </div>
+
+            <div class="navlink">
+                <a href="about.html"> About</a>
+            </div>
+        </div>
+
+        <div class="rightnav">
+            <div class="brand">
+                <div>
+                    <img src="images/gologo.png" height="75" width="75"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fullpage">
+        <!-- <label>Roll No:</label>
+        <input id="roll"></input><br><br>-->
+        <button class="login_bt" onclick="generate()">Generate</button>
+
+        <br><br>
+        <lable id="ss1">Subject1</lable>:<label id="att1">0</label><label>%</label>
+        <br><br>
+        <lable id="ss2">Subject1</lable>:<label id="att2">0</label><label>%</label>
+        <br><br>
+        <lable id="ss3">Subject1</lable>:<label id="att3">0</label><label>%</label>
+        <br><br>
+        <lable id="ss4">Subject1</lable>:<label id="att4">0</label><label>%</label>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyB9R01VGjTAWNDZDwpTLvkWgPff7HoUidw",
+            authDomain: "miniprojectv2final.firebaseapp.com",
+            databaseURL: "https://miniprojectv2final-default-rtdb.firebaseio.com",
+            projectId: "miniprojectv2final",
+            storageBucket: "miniprojectv2final.appspot.com",
+            messagingSenderId: "122429042157",
+            appId: "1:122429042157:web:f3964bb119fbb7db300be4",
+            measurementId: "G-5E67TQSW2Y"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script type="text/javascript" src="new.js">
+    </script>
+
+</body>
+
+</html>

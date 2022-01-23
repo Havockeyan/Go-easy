@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.leftnav {
+    display: flex;
+}
+
+.nav>.leftnav>div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.brand {
+    font-weight: bolder;
+    color: darkviolet;
+}
+
+.navlink {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navlink a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navlink:hover {
+    border-bottom: 1px solid black;
+}
+
+.navlink a:hover {
+    color: black;
+}
+
+.fullpage {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    width: auto;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+body {
+    background-image: url(images/leave.gif);
+    background-size: cover;
+}
+
+.submit_bt {
+    width: 200px;
+    height: 30px;
+    color: rgb(229, 241, 229);
+    background-color: green;
+    cursor: pointer;
+}

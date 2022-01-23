@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css3/pass1.css">
+    <script src="pass.js"></script>
+    <title>PASSWORD</title>
+</head>
+
+<body class="new" background="bgimg2.jpg">
+    <div class="div1">
+        <h1 class="cpass">CHANGE PASSWORD</h1>
+        <img class="paslogo" width="45px" src="pass.png" alt="passwrd">
+    </div>
+    <div class="main">
+        <label>ROLL NUMBER</label><br>
+        <input class="br" id="rollnumber" placeholder="Rollnumber" type="text"> </input> <br><br>
+        <label>CURRENT PASSWORD</label><br>
+        <input class="br" id="cpassword" placeholder="Current Password" type="password"></input> <br><br>
+        <label>NEW PASSWORD</label><br>
+        <input class="br" id="npassword" placeholder="New Password" type="password"></input> <br><br>
+        <button class="but" onclick="">Change Password</button>
+        <br>
+        <br>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyB9R01VGjTAWNDZDwpTLvkWgPff7HoUidw",
+            authDomain: "miniprojectv2final.firebaseapp.com",
+            databaseURL: "https://miniprojectv2final-default-rtdb.firebaseio.com",
+            projectId: "miniprojectv2final",
+            storageBucket: "miniprojectv2final.appspot.com",
+            messagingSenderId: "122429042157",
+            appId: "1:122429042157:web:f3964bb119fbb7db300be4",
+            measurementId: "G-5E67TQSW2Y"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</body>
+
+</html>

@@ -55,3 +55,4 @@ Start the server
   npm run
 ```
 
+Then open the webPage from Login.html in the root folder of the project

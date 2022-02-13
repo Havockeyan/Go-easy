@@ -2,6 +2,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const morgan = require('morgan');
+const fs = require('fs');
 const dotenv = require('dotenv');
 dotenv.config();
 
@@ -10,6 +12,12 @@ const authRouter = require('./router/auth');
 const leaveRouter = require('./router/leaveRoute');
 
 const app = express();
+
+//setting up morgan
+app.use(morgan('combined'));
+app.use(morgan('combined',{
+    stream: fs.createWriteStream('./access.log', {flags: 'a'})
+}))
 
 app.use(bodyParser.json());
 
